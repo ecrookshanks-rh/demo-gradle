@@ -8,7 +8,8 @@ public class HomeController {
 
     @RequestMapping("/")
     public String home() {
-        return "Hello Docker World";
+        String result = "Hello OpenShift World!\nSecond time around\n";
+        return result;
     }
 
 }
